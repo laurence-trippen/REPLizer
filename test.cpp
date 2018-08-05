@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  test.cpp
 //  replizer
 //
 //  Created by Laurence Trippen on 26.07.18.

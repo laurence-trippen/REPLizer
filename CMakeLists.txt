@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.11.4)
+project (REPLizer)
+set (CMAKE_CXX_STANDARD 11)
+add_library (replizer_static STATIC replizer.cpp)
+add_library (replizer_shared SHARED replizer.cpp)
+install(TARGETS replizer_static replizer_shared DESTINATION lib)
